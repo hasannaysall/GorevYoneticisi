@@ -1,0 +1,6 @@
+@GorevYoneticisi_HostAddress = http://localhost:5163
+
+GET {{GorevYoneticisi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
