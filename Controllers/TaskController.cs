@@ -1,9 +1,14 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using GorevYoneticisi.Data;
 using GorevYoneticisi.Models;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
 namespace GorevYoneticisi.Controllers
 {
+    [Authorize] 
     [Route("api/[controller]")]
     [ApiController]
     public class TaskController : ControllerBase
@@ -15,14 +20,14 @@ namespace GorevYoneticisi.Controllers
             _context = context;
         }
 
-      
+       
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Gorev>>> GetGorevler()
         {
             return await _context.Gorevler.Include(g => g.Kullanici).ToListAsync();
         }
 
-      
+       
         [HttpGet("{id}")]
         public async Task<ActionResult<Gorev>> GetGorev(int id)
         {
@@ -34,15 +39,16 @@ namespace GorevYoneticisi.Controllers
             return gorev;
         }
 
+        
         [HttpPost]
         public async Task<ActionResult<Gorev>> CreateGorev(Gorev gorev)
         {
-            var user = _context.Kullanicilar.Find(gorev.KullaniciId);
+            var user = await _context.Kullanicilar.FindAsync(gorev.KullaniciId);
             if (user == null)
             {
                 return NotFound("Kullanıcı bulunamadı.");
             }
-      
+
             gorev.Kullanici = user;
 
             _context.Gorevler.Add(gorev);
@@ -51,7 +57,7 @@ namespace GorevYoneticisi.Controllers
             return CreatedAtAction(nameof(GetGorev), new { id = gorev.Id }, gorev);
         }
 
-       
+        
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateGorev(int id, Gorev gorev)
         {
@@ -81,7 +87,7 @@ namespace GorevYoneticisi.Controllers
             return NoContent();
         }
 
-       
+        
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteGorev(int id)
         {
@@ -96,6 +102,5 @@ namespace GorevYoneticisi.Controllers
 
             return NoContent();
         }
-
     }
 }
