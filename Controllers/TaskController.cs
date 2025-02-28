@@ -87,5 +87,6 @@ namespace GorevYoneticisi.Controllers
 
             return NoContent();
         }
+
     }
 }

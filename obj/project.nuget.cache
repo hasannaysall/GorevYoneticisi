@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zmeYx603k5BJ1jfaznBnZahM6DKq7qUQLClE7ml9kGSoODVZibGlSIH8g6BKNEsJYXhTIrsHpgVuwYLnW3rkxQ==",
+  "dgSpecHash": "anS6YhftfbNWivvSt4KDpLNlHXmlUmvDOQies2JtPp/RzhOobHftKUOC0tadcG8zrM3hV7pJNPNB9J8RIIN1gg==",
   "success": true,
   "projectFilePath": "C:\\Users\\hasan\\source\\repos\\GorevYoneticisi\\GorevYoneticisi\\GorevYoneticisi.csproj",
   "expectedPackageFiles": [
@@ -31,6 +31,8 @@
     "C:\\Users\\hasan\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\hasan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\hasan\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.0\\microsoft.extensions.dependencymodel.8.0.0.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\8.0.0\\microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\microsoft.extensions.fileproviders.embedded\\8.0.0\\microsoft.extensions.fileproviders.embedded.8.0.0.nupkg.sha512",
     "C:\\Users\\hasan\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
     "C:\\Users\\hasan\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\hasan\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
@@ -50,6 +52,18 @@
     "C:\\Users\\hasan\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\hasan\\.nuget\\packages\\migrations\\1.0.1\\migrations.1.0.1.nupkg.sha512",
     "C:\\Users\\hasan\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\namotion.reflection\\3.2.0\\namotion.reflection.3.2.0.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\njsonschema\\11.1.0\\njsonschema.11.1.0.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\njsonschema.annotations\\11.1.0\\njsonschema.annotations.11.1.0.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\njsonschema.newtonsoftjson\\11.1.0\\njsonschema.newtonsoftjson.11.1.0.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\njsonschema.yaml\\11.1.0\\njsonschema.yaml.11.1.0.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\nswag.annotations\\14.2.0\\nswag.annotations.14.2.0.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\nswag.aspnetcore\\14.2.0\\nswag.aspnetcore.14.2.0.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\nswag.core\\14.2.0\\nswag.core.14.2.0.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\nswag.core.yaml\\14.2.0\\nswag.core.yaml.14.2.0.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\nswag.generation\\14.2.0\\nswag.generation.14.2.0.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\nswag.generation.aspnetcore\\14.2.0\\nswag.generation.aspnetcore.14.2.0.nupkg.sha512",
     "C:\\Users\\hasan\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\hasan\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\hasan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
@@ -86,7 +100,8 @@
     "C:\\Users\\hasan\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
     "C:\\Users\\hasan\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512",
     "C:\\Users\\hasan\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\hasan\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
+    "C:\\Users\\hasan\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\yamldotnet\\16.2.0\\yamldotnet.16.2.0.nupkg.sha512"
   ],
   "logs": [
     {
