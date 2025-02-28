@@ -37,8 +37,17 @@ namespace GorevYoneticisi.Controllers
         [HttpPost]
         public async Task<ActionResult<Gorev>> CreateGorev(Gorev gorev)
         {
+            var user = _context.Kullanicilar.Find(gorev.KullaniciId);
+            if (user == null)
+            {
+                return NotFound("Kullanıcı bulunamadı.");
+            }
+      
+            gorev.Kullanici = user;
+
             _context.Gorevler.Add(gorev);
             await _context.SaveChangesAsync();
+
             return CreatedAtAction(nameof(GetGorev), new { id = gorev.Id }, gorev);
         }
 

@@ -8,6 +8,6 @@
         public DateTime Tarih { get; set; }
         public bool Tamamlandi { get; set; }
         public int KullaniciId { get; set; }
-        public Kullanici Kullanici { get; set; }
+        public Kullanici? Kullanici { get; set; }
     }
 }

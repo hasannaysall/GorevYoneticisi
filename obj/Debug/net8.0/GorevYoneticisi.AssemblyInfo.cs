@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GorevYoneticisi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+025b8ddd9bea16fa2c3a587a63b6c9945f9ca47a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49f689c5b39d448aa525f315496285dbcdea5338")]
 [assembly: System.Reflection.AssemblyProductAttribute("GorevYoneticisi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GorevYoneticisi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
