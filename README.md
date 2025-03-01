@@ -1,4 +1,4 @@
-# ✅ Görev Yöneticisi API
+# ✅ Görev Yöneticisi
 
 Bu proje, ASP.NET Core Web API kullanılarak geliştirilmiş bir **görev yönetim sistemi**dir. Kullanıcılar giriş yaparak kendi görevlerini oluşturabilir, güncelleyebilir ve silebilirler. API JWT (JSON Web Token) ile kimlik doğrulama ve yetkilendirme mekanizmasına sahiptir.
 
